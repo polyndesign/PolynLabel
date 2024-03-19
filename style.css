@@ -1,0 +1,34 @@
+/* Background */
+body {
+  background-image: url(assets/dancebackground.png);
+}
+/* Navigation */
+#main-menu {
+    display: flex;
+    color: #F6EB14;
+    gap: 80px;
+    float: right;
+    margin-top: 40px;
+}
+.navigation a:link {
+color: #F6EB14;
+font-size: 30px;
+font-family: Orbitron;
+src: url(assets/Fonts/Orbitron-VariableFont_wght.ttf);
+
+}
+
+/* No Bullet Points and Underlines*/
+li {
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+}
+/* Moving Image Center */
+.home {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
