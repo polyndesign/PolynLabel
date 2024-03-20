@@ -2,20 +2,36 @@
 body {
   background-image: url(assets/dancebackground.png);
 }
-/* Navigation */
+/* Navigation (A,A,S)*/
 #main-menu {
     display: flex;
-    color: #F6EB14;
-    gap: 80px;
+    gap: 117px;
     float: right;
-    margin-top: 40px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+    margin-right: 31px;
+    position: static;
 }
+
 .navigation a:link {
 color: #F6EB14;
-font-size: 30px;
+font-size: 40px;
 font-family: Orbitron;
 src: url(assets/Fonts/Orbitron-VariableFont_wght.ttf);
 
+}
+
+nav{
+  background-color: #F59AA3;
+  width: -70%;
+  background-position: -30%;
+}
+
+
+
+/* Hover on Navigation Link */
+.navigation a:hover {
+  color: #F6881F;
 }
 
 /* No Bullet Points and Underlines*/
