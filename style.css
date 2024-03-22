@@ -5,29 +5,35 @@ body {
 /* Navigation (A,A,S)*/
 #main-menu {
     display: inline-flex;
-    gap: 250px;
+    gap: 200px;
     float: right;
     margin-top: 4px;
     margin-bottom: 24px;
     margin-right: 115px;
     position: static;
 }
+@font-face {
+font-family: "Orbitron";
+src: url(assets/Fonts/Orbitron-VariableFont_wght.ttf);
+font-weight: 400;
 
+
+}
 .navigation a:link {
 color: #F6EB14;
 font-size: 38px;
 font-family: Orbitron;
-src: url(assets/Fonts/Orbitron-VariableFont_wght.ttf);
+
 
 }
 
 nav{
   background-image: url(assets/NavigationLabel-01.svg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top right static;
+  background-position: top right ;
   background-size: cover;
   display: block;
+
  }
 
 
@@ -55,7 +61,52 @@ a:link{
 
 #Logo {
   width: 650px;
-  position: static;
+  position: relative;
+  bottom: 50px;
 }
 
 /* Search Button */
+
+.searchinput{
+  width: 520px;
+  height: 80.72px;
+  display: inline;
+  align-items: center;
+  padding: 14px;
+  border-radius: 18px;
+  border: none;
+  margin-top: 30px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    margin-right: -220px;
+    background-color: #F4CA19;
+    font-size: 41px;
+    text-indent: 30px;
+    color: #302C81;
+}
+
+.navsearch  {
+    background-color: #D46CAA;
+    border: 3px #F4CA19;
+    stroke-width: 50%;
+    padding: 14px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 23px;
+    position: relative;
+    left: 108px;
+    bottom: -2px;
+  
+}
+
+  /* Make Search/Email Blue */
+::placeholder
+{
+  color:#302C81
+}
+
+/* Padding for Main */
+main {
+  
+}
