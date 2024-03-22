@@ -106,8 +106,16 @@ a:link{
   color:#302C81
 }
 
-/* Footer */
+/* Fix Navigation Location */
 * {
 margin: 0;  
 padding: 0;
+}
+/* Footer */
+footer {
+  background-color: red;
+  position: relative;
+  height: 260px;
+  margin-top: -100px;
+  clear: both;
 }
