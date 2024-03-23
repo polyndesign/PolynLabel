@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f59aa3;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #f6881f;
+      }
+    </style>
+  </defs>
+  <rect id="F" class="cls-2" x="0" y="625.04" width="1082.66" height="83.24"/>
+  <rect id="F-2" data-name="F" class="cls-1" x="0" y="634.8" width="1082.66" height="85.23"/>
+</svg>
