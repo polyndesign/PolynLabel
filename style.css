@@ -1,6 +1,9 @@
-/* Background */
+/* Background  (Delete min-height and below if not working*/
 body {
   background-image: url(assets/dancebackground.png);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /* Navigation (A,A,S)*/
 #main-menu {
@@ -117,16 +120,18 @@ padding: 0;
 /* Footer */
 footer {
  position: relative;
- 
   background-image: url(assets/navigationbar.svg);
   color: #302C81;
+  margin-top: auto;
   
 }
-/* Change color of Footer Color */
+/* Footer Color */
 .footerlinks a:link {
   color: #302C81;
   display: grid;
   font-size: 30px;
+  padding: 26.5px;
+  letter-spacing: 10px;
 }
 /* Hover Links */
 .footerlinks a:hover {
