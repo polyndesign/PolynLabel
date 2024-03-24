@@ -61,9 +61,11 @@ a:link{
 
 #Logo {
   position: relative;
-  bottom: 50px;
-  width: 420px;
-  margin-top: 25px;
+  width: 320px;
+  top: 20px;
+  left: 50px;
+  
+  
 }
 
 /* Search Button */
@@ -115,10 +117,18 @@ padding: 0;
 /* Footer */
 footer {
  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+ 
   background-image: url(assets/navigationbar.svg);
-  color: white;
+  color: #302C81;
   
+}
+/* Change color of Footer Color */
+.footerlinks a:link {
+  color: #302C81;
+  display: grid;
+  font-size: 30px;
+}
+/* Hover Links */
+.footerlinks a:hover {
+  color: #F6881F;
 }
