@@ -57,8 +57,8 @@ a:link{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 78%;
-  bottom:50px;
+  width: 58%;
+ 
 }
 /* Logo Moving Up */
 
@@ -123,16 +123,31 @@ footer {
   background-image: url(assets/navigationbar.svg);
   color: #302C81;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Footer Color */
 .footerlinks a:link {
   color: #302C81;
   display: grid;
-  font-size: 30px;
-  padding: 26.5px;
+  font-size: 36px;
   letter-spacing: 10px;
+  margin-top: 30px;
+  right: 20px;
+  margin-left: 250px;
+  margin-bottom: -15px;
+  
 }
 /* Hover Links */
 .footerlinks a:hover {
   color: #F6881F;
+}
+/* EMAIL */
+.email {
+  position: absolute;
+  right: 150px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  right: 20px;
+  margin-right: 250px;
+  margin-top: -140px;
 }
