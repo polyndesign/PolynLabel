@@ -147,7 +147,7 @@ footer {
   right: 150px;
   font-size: 40px;
   letter-spacing: 10px;
-  right: 20px;
+  right: -98px;
   margin-right: 250px;
   margin-top: -140px;
   
@@ -157,11 +157,12 @@ footer {
   background-color:#F4CA19;
   color: #302C81;
   border: none;
-  width: 568px;
+  width: 558px;
   height: 88px;
   text-indent: 30px;
   font-size: 24px;
   border-radius: 5px;
+
 
 }
 /* Email Title */
@@ -169,9 +170,30 @@ footer {
   position: absolute;
   right: 150px;
   font-size: 40px;
-  letter-spacing: 10px;
+  letter-spacing: 16px;
   right: 20px;
-  margin-right: 430px;
+  margin-right: 378px;
   margin-top: -160px;
   
 }
+/* Email Search */
+.emailsearch {
+  background-color:#D46CAA;
+  text-decoration: none;
+  font-family: "Orbitron";
+  font-weight: bold;
+  font-size: 24px;
+  color: #302C81;
+  position: relative;
+  padding:24px 37px;
+  right: 223px;
+  bottom: -0.2px;
+  border-radius: 5px;
+  border-width: 15px;
+  border: 2.8px solid #F4CA19;
+  width: 200px;
+}
+/* When Typing */
+input:focus {
+  outline: 6px solid #E74698;  
+ }
