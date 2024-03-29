@@ -7,13 +7,13 @@ body {
 }
 /* Navigation (A,A,S)*/
 #main-menu {
-    display: inline-flex;
-    gap: 200px;
-    float: right;
-    margin-top: 40px;
-    margin-bottom: 24px;
-    margin-right: 115px;
-    position: static;
+  display: inline-flex;
+  gap: 200px;
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  margin-right: 115px;
+  position: static;
 }
 @font-face {
 font-family: "Orbitron";
@@ -26,6 +26,7 @@ font-weight: 400;
 color: #F6EB14;
 font-size: 38px;
 font-family: Orbitron;
+position: static;
 
 
 }
