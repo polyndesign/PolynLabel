@@ -15,13 +15,18 @@ body {
   margin-right: 115px;
   position: static;
 }
+/* FONTS */
 @font-face {
 font-family: "Orbitron";
 src: url(assets/Fonts/Orbitron-VariableFont_wght.ttf);
 font-weight: 400;
-
-
 }
+
+@font-face {
+  font-family: "Goldman";
+  src: url(assets/Fonts/Goldman-Regular.ttf);
+  }
+
 .navigation a:link {
 color: #F6EB14;
 font-size: 38px;
@@ -65,9 +70,8 @@ a:link{
 
 #Logo {
   position: relative;
-  width: 320px;
-  top: 20px;
-  left: 50px;
+  top: -15px;
+  left: 0px;
   
   
 }
@@ -90,6 +94,8 @@ a:link{
     font-size: 41px;
     text-indent: 30px;
     color: #302C81;
+    font-family: Goldman
+
 }
 
 .navsearch  {
@@ -103,7 +109,7 @@ a:link{
     border-radius: 23px;
     position: relative;
     left: 108px;
-    bottom: -2px;
+    bottom: -5px;
   
 }
 
@@ -136,7 +142,9 @@ footer {
   right: 20px;
   margin-left: 250px;
   margin-bottom: -15px;
-  
+  font-family: Goldman;
+  font-weight: 100;
+  text-align:left;
 }
 /* Hover Links */
 .footerlinks a:hover {
@@ -149,7 +157,7 @@ footer {
   font-size: 40px;
   letter-spacing: 10px;
   right: -98px;
-  margin-right: 250px;
+  margin-right: 245px;
   margin-top: -140px;
   
 }
@@ -163,6 +171,8 @@ footer {
   text-indent: 30px;
   font-size: 24px;
   border-radius: 5px;
+  font-family: Goldman;
+  letter-spacing: 5px;
 
 
 }
@@ -173,8 +183,9 @@ footer {
   font-size: 40px;
   letter-spacing: 16px;
   right: 20px;
-  margin-right: 378px;
+  margin-right: 360px;
   margin-top: -160px;
+  font-family: Goldman;
   
 }
 /* Email Search */
@@ -198,3 +209,471 @@ footer {
 input:focus {
   outline: 6px solid #E74698;  
  }
+/* MEDIA QUIERES  For Navigation*/
+@media (max-width: 2880px)
+{
+  .navigation a:link {
+    font-size: 30px;
+  }
+  .searchinput{
+    width: 450px;
+    height: 75.72px;
+  }
+  .navsearch  {
+    padding: 10px 30px;
+  }
+
+}
+
+@media (max-width: 2700px)
+{
+  .navigation a:link {
+    font-size: 22px;
+  }
+  .navsearch  {
+    padding: 6px 25px;
+    left: 121px;
+    top: 10px;
+
+  }
+  .searchinput{
+    width: 350px;
+    height: 60.72px;
+    font-size: 32px;
+    margin-bottom: 85px;
+
+  }
+
+  .email {
+    position: absolute;
+    right: 150px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    right: -220px;
+    margin-right: 245px;
+    margin-top: -140px;
+    
+  }
+  .emailtitle {
+    position: absolute;
+    right: 150px;
+    font-size: 30px;
+    letter-spacing: 16px;
+    right: -80px;
+    margin-right: 360px;
+    margin-top: -160px;
+    font-family: Goldman;
+    }
+
+    .footerlinks a:link {
+      color: #302C81;
+      display: grid;
+      font-size: 30px;
+      letter-spacing: 10px;
+      margin-top: 30px;
+      right: 20px;
+      margin-left: 200px;
+      margin-bottom: -15px;
+      font-family: Goldman;
+      font-weight: 100;
+      text-align:left;
+    }
+}
+
+@media (max-width: 1980px)
+{
+  .navigation a:link {
+    font-size: 18px;
+  }
+  .navsearch  {
+    padding: 4px 24px;
+    left: 120px;
+    top: -5px;
+
+  }
+  .searchinput{
+    width: 280px;
+    height: 50.72px;
+    font-size: 25px;
+    margin-bottom: 85px;
+    position: relative;
+    bottom: 22px;
+    margin-right: -250px;
+
+  }
+  .navsearch  {
+    padding: 3px 24px;
+    left: 152px;
+    top: -12px;
+
+  }
+  .email {
+    position: absolute;
+    right: 150px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    right: -300px;
+    margin-right: 245px;
+    margin-top: -140px;
+    
+  }
+  .emailtitle {
+    position: absolute;
+    right: 150px;
+    font-size: 28px;
+    letter-spacing: 16px;
+    right: -148px;
+    margin-right: 360px;
+    margin-top: -150px;
+    font-family: Goldman;
+    }
+    #Logo {
+      width: 400px;
+      top: -12px;
+    left: 0px;
+    }
+    .footerlinks a:link {
+      color: #302C81;
+      display: grid;
+      font-size: 25px;
+      letter-spacing: 10px;
+      margin-top: 30px;
+      right: 20px;
+      margin-left: 130px;
+      margin-bottom: -15px;
+      font-family: Goldman;
+      font-weight: 100;
+      text-align:left;
+    }
+}
+
+@media (max-width: 1900px)
+{
+  #main-menu {
+    display: inline-flex;
+    gap: 150px;
+  }
+  .navigation a:link {
+    font-size: 14px;
+  }
+  .navsearch  {
+    padding: 7px 24px;
+    left: 105px;
+    top: -18px;
+
+  }
+  .searchinput{
+    width: 280px;
+    height: 50.72px;
+    font-size: 25px;
+    margin-bottom: 85px;
+    position: relative;
+    bottom: 22px;
+    margin-right: -190px;
+
+  }
+  img {
+    width: 28px;
+    }
+    #Logo {
+      width: 300px;
+      top: -12px;
+    left: 0px;
+    }
+    .email {
+      position: absolute;
+      right: 150px;
+      font-size: 40px;
+      letter-spacing: 10px;
+      right: -350px;
+      margin-right: 245px;
+      margin-top: -120px;
+      
+    }
+    .emailtitle {
+      position: absolute;
+      right: 150px;
+      font-size: 28px;
+      letter-spacing: 16px;
+      right: -185px;
+      margin-right: 360px;
+      margin-top: -130px;
+      font-family: Goldman;
+      }
+      .footerlinks a:link {
+        color: #302C81;
+        display: grid;
+        font-size: 20px;
+        letter-spacing: 10px;
+        margin-top: 30px;
+        right: 20px;
+        margin-left: 100px;
+        margin-bottom: -15px;
+        font-family: Goldman;
+        font-weight: 100;
+        text-align:left;
+      }
+}
+
+@media (max-width: 1600px)
+{
+  #main-menu {
+    display: inline-flex;
+    gap: 100px;
+    margin-right: 55px;
+
+  }
+  .navigation a:link {
+    font-size: 13px;
+  }
+  .navsearch  {
+    padding: 7px 24px;
+    left: 50px;
+    top: -19px;
+
+  }
+  .searchinput{
+    width: 260px;
+    height: 45.72px;
+    font-size: 25px;
+    margin-bottom: 85px;
+    position: relative;
+    bottom: 22px;
+    margin-right: -130px;
+
+  }
+  img {
+    width: 24px;
+    }
+    #Logo {
+      width: 300px;
+      top: -7px;
+    left: 0px;
+    }
+    .email {
+      position: absolute;
+      right: 150px;
+      font-size: 40px;
+      letter-spacing: 10px;
+      right: -350px;
+      margin-right: 245px;
+      margin-top: -120px;
+      
+    }
+    .emailtitle {
+      position: absolute;
+      right: 150px;
+      font-size: 20px;
+      letter-spacing: 16px;
+      right: -190px;
+      margin-right: 360px;
+      margin-top: -120px;
+      font-family: Goldman;
+      }
+      .emailcolor {
+        background-color: #F4CA19;
+        color: #302C81;
+        border: none;
+        width: 508px;
+        height: 88px;
+        text-indent: 30px;
+        font-size: 14px;
+        border-radius: 5px;
+        font-family: Goldman;
+        letter-spacing: 5px;
+        }
+        .emailsearch {
+          background-color: #D46CAA;
+          text-decoration: none;
+          font-family: "Orbitron";
+          font-weight: bold;
+          font-size: 20px;
+          color: #302C81;
+          position: relative;
+          padding: 23px 37px;
+          right: 223px;
+          bottom: -3px;
+          border-radius: 5px;
+          border-width: 15px;
+          border: 2.8px solid #F4CA19;
+          width: 200px;
+          }
+          .footerlinks a:link {
+            color: #302C81;
+            display: grid;
+            font-size: 15px;
+            letter-spacing: 10px;
+            margin-top: 30px;
+            right: 20px;
+            margin-left: 100px;
+            margin-bottom: -15px;
+            font-family: Goldman;
+            font-weight: 100;
+            text-align:left;
+          }
+}
+
+@media (max-width: 1350px)
+{
+  #main-menu {
+    display: inline-flex;
+    gap: 90px;
+    margin-right: 55px;
+
+  }
+  .navigation a:link {
+    font-size: 13px;
+  }
+  .navsearch  {
+    padding: 5px 24px;
+    left: 53px;
+    top: -20px;
+
+  }
+  .searchinput{
+    width: 240px;
+    height: 40.72px;
+    font-size: 25px;
+    margin-bottom: 85px;
+    position: relative;
+    bottom: 22px;
+    margin-right: -130px;
+
+  }
+  img {
+    width: 22px;
+    }
+    #Logo {
+      width: 300px;
+      top: -7px;
+    left: 0px;
+    }
+    .email {
+      position: absolute;
+      right: 150px;
+      font-size: 10px;
+      letter-spacing: 10px;
+      right: -400px;
+      margin-right: 245px;
+      margin-top: -120px;
+      
+    }
+    .emailtitle {
+      position: absolute;
+      right: 150px;
+      font-size: 18px;
+      letter-spacing: 16px;
+      right: -250px;
+      margin-right: 360px;
+      margin-top: -120px;
+      font-family: Goldman;
+      }
+      .emailcolor {
+        background-color: #F4CA19;
+        color: #302C81;
+        border: none;
+        width: 480px;
+        height: 80px;
+        text-indent: 30px;
+        font-size: 10px;
+        border-radius: 5px;
+        font-family: Goldman;
+        letter-spacing: 5px;
+        }
+        .emailsearch {
+          background-color: #D46CAA;
+          text-decoration: none;
+          font-family: "Orbitron";
+          font-weight: bold;
+          font-size: 15px;
+          color: #302C81;
+          position: relative;
+          padding: 20px 37px;
+          right: 223px;
+          bottom: -3px;
+          border-radius: 5px;
+          border-width: 15px;
+          border: 2.8px solid #F4CA19;
+          width: 200px;
+          }
+}
+
+@media (max-width: 1200px)
+{
+  #main-menu {
+    display: inline-flex;
+    gap: 75px;
+    margin-right: 28px;
+
+  }
+  .navigation a:link {
+    font-size: 13px;
+  }
+  .navsearch  {
+    padding: 5px 24px;
+    left: 53px;
+    top: -19px;
+
+  }
+  .searchinput{
+    width: 240px;
+    height: 40.72px;
+    font-size: 25px;
+    margin-bottom: 85px;
+    position: relative;
+    bottom: 22px;
+    margin-right: -130px;
+
+  }
+  img {
+    width: 22px;
+    }
+    .email {
+      position: absolute;
+      right: 150px;
+      font-size: 10px;
+      letter-spacing: 10px;
+      right: -400px;
+      margin-right: 245px;
+      margin-top: -120px;
+      
+    }
+    .emailtitle {
+      position: absolute;
+      right: 150px;
+      font-size: 18px;
+      letter-spacing: 16px;
+      right: -330px;
+      margin-right: 360px;
+      margin-top: -120px;
+      font-family: Goldman;
+      }
+      .emailcolor {
+        background-color: #F4CA19;
+        color: #302C81;
+        border: none;
+        width: 420px;
+        height: 80px;
+        text-indent: 30px;
+        font-size: 10px;
+        border-radius: 5px;
+        font-family: Goldman;
+        letter-spacing: 5px;
+        }
+        .emailsearch {
+          background-color: #D46CAA;
+          text-decoration: none;
+          font-family: "Orbitron";
+          font-weight: bold;
+          font-size: 15px;
+          color: #302C81;
+          position: relative;
+          padding: 20px 28px;
+          right: 170px;
+          bottom: -3px;
+          border-radius: 5px;
+          border-width: 15px;
+          border: 2.8px solid #F4CA19;
+          width: 150px;
+          }
+}
