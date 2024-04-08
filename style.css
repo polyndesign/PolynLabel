@@ -35,6 +35,10 @@ position: static;
 
 
 }
+/* About color */
+h2 {
+  color: #F6EB14;
+}
 
 nav{
   background-image: url(assets/NavigationLabel-01.svg);
@@ -676,4 +680,14 @@ input:focus {
           border: 2.8px solid #F4CA19;
           width: 150px;
           }
+}
+
+/* PAGE 2 */
+h3 {
+  font-family: "Orbitron";
+  font-size: 90px;
+  color: #E74698;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #F4CA19;
 }
