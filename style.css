@@ -683,11 +683,20 @@ input:focus {
 }
 
 /* PAGE 2 */
-h3 {
+.titles {
   font-family: "Orbitron";
   font-size: 90px;
   color: #E74698;
   font-weight: bolder;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #F4CA19;
+  margin-left: 400px;
+  position: relative;
+}
+/* BlockQuote */
+
+.blockq {
+  color: #D46CAA;
+  font-family: Orbitron;
+  font-size: 25px;
 }
