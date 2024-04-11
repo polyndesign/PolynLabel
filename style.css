@@ -727,11 +727,12 @@ input:focus {
   right: 230px;
 }
 /* Container Behind Text */
-.boxed {
-  border: 5px solid green ;
-  background-color: green;
+.rectangle {
+ background-color: #F4CA19;
+ left: 0;
+  right: 0;
+  border-radius: 34px;
+  margin-left: 120px;
   position: relative;
-  margin-left: 80px;
-
-
 }
+ 
