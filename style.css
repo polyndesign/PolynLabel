@@ -51,7 +51,7 @@ nav{
 
 
 /* Hover on Navigation Link */
-.navigation li a:hover {
+.li.navigation a:hover {
   color: #F6881F;
 }
 
@@ -61,6 +61,7 @@ li {
 }
 a:link{
     text-decoration: none;
+    
 }
 /* Moving Image Center */
 .home {
@@ -226,7 +227,13 @@ input:focus {
   .navsearch  {
     padding: 10px 30px;
   }
-
+  #aboutlogo {
+    float: right;
+   margin-right: 250px;
+   bottom: 120px;
+   position: relative;
+   width: 1100px;
+   }
 }
 
 @media (max-width: 2700px)
@@ -282,6 +289,7 @@ input:focus {
       font-weight: 100;
       text-align:left;
     }
+    
 }
 
 @media (max-width: 1980px)
@@ -721,11 +729,10 @@ input:focus {
 
 /* About Logo */
 #aboutlogo {
-  display: block;
-  margin-left: auto;
-  position: relative;
-  bottom: 1120px;
-  right: 230px;
+ float: right;
+margin-right: 250px;
+bottom: 120px;
+position: relative;
 }
 /* Container Behind Text */
 .rectangle {
