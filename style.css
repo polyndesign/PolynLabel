@@ -33,8 +33,13 @@ font-size: 38px;
 font-family: Orbitron;
 position: static;
 
-
 }
+
+/* Hover on Navigation Link */
+li.navigation a:hover {
+  color: #F6881F;
+}
+
 /* About color */
 h2 {
   color: #F6EB14;
@@ -50,10 +55,6 @@ nav{
 
 
 
-/* Hover on Navigation Link */
-li.navigation a:hover {
-  color: #F6881F !important;
-}
 
 /* No Bullet Points and Underlines*/
 li {
