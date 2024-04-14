@@ -51,8 +51,8 @@ nav{
 
 
 /* Hover on Navigation Link */
-.li.navigation a:hover {
-  color: #F6881F;
+li.navigation a:hover {
+  color: #F6881F !important;
 }
 
 /* No Bullet Points and Underlines*/
@@ -227,6 +227,8 @@ input:focus {
   .navsearch  {
     padding: 10px 30px;
   }
+  /* Page 2 */
+
   #aboutlogo {
     float: right;
    margin-right: 250px;
@@ -234,6 +236,21 @@ input:focus {
    position: relative;
    width: 1100px;
    }
+
+   .rectangle {
+    background-color: #F4CA19;
+    left: 0;
+     right: 0;
+     border-radius: 34px;
+     margin-left: 125px;
+     position: relative;
+     width: 600px;
+     display: block;
+   }
+   .blockq {
+    font-size: 40px;
+    
+  }
 }
 
 @media (max-width: 2700px)
