@@ -36,7 +36,7 @@ position: static;
 }
 
 /* Hover on Navigation Link */
-li.navigation a:hover {
+.navigation a:hover {
   color: #F6881F;
 }
 
@@ -215,6 +215,66 @@ footer {
 input:focus {
   outline: 6px solid #E74698;  
  }
+
+
+/* PAGE 2 */
+#titles {
+  font-family: "Orbitron";
+  font-size: 90px;
+  color: #E74698;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #F4CA19;
+  margin-left: 420px;
+  position: relative;
+}
+/* BlockQuote */
+
+.blockq {
+  color: #D46CAA;
+  font-family: Orbitron;
+  font-size: 45px;
+  line-height: 150%;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+/* Description */
+
+.description {
+  color: #E74698;
+  font-family: Goldman;
+  font-size: 30px;
+  margin-left: 45px;
+  text-align: left;
+  margin-right: 20px;
+  line-height: 140%;
+  display: flex;
+  left: 50px;
+
+}
+
+/* About Logo */
+#aboutlogo {
+ float: right;
+margin-right: 250px;
+bottom: 120px;
+position: relative;
+}
+/* Container Behind Text */
+.rectangle {
+ background-color: #F4CA19;
+ left: 0;
+  right: 0;
+  border-radius: 34px;
+  margin-left: 125px;
+  position: relative;
+  width: 930px;
+  display: block;
+}
+ 
+
+
 /* MEDIA QUIERES  For Navigation*/
 @media (max-width: 2880px)
 {
@@ -245,13 +305,42 @@ input:focus {
      border-radius: 34px;
      margin-left: 125px;
      position: relative;
-     width: 600px;
+     width: 800px;
      display: block;
    }
+
    .blockq {
+    color: #D46CAA;
+    font-family: Orbitron;
     font-size: 40px;
-    
+    line-height: 150%;
+    text-align: center;
+    position: relative;
+    display: flex;
   }
+  
+  .description {
+    color: #E74698;
+    font-family: Goldman;
+    font-size: 25px;
+    margin-left: 45px;
+    text-align: left;
+    margin-right: 20px;
+    line-height: 140%;
+    display: flex;
+    left: 50px;
+  }
+
+  #titles {
+  font-family: "Orbitron";
+  font-size: 80px;
+  color: #E74698;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #F4CA19;
+  margin-left: 380px;
+  position: relative;
+}
 }
 
 @media (max-width: 2700px)
@@ -707,60 +796,3 @@ input:focus {
           width: 150px;
           }
 }
-
-/* PAGE 2 */
-.titles {
-  font-family: "Orbitron";
-  font-size: 90px;
-  color: #E74698;
-  font-weight: bolder;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #F4CA19;
-  margin-left: 420px;
-  position: relative;
-}
-/* BlockQuote */
-
-.blockq {
-  color: #D46CAA;
-  font-family: Orbitron;
-  font-size: 45px;
-  line-height: 150%;
-  text-align: center;
-  position: relative;
-  display: flex;
-}
-/* Description */
-
-.description {
-  color: #E74698;
-  font-family: Goldman;
-  font-size: 30px;
-  margin-left: 45px;
-  text-align: left;
-  margin-right: 20px;
-  line-height: 140%;
-  display: flex;
-  left: 50px;
-
-}
-
-/* About Logo */
-#aboutlogo {
- float: right;
-margin-right: 250px;
-bottom: 120px;
-position: relative;
-}
-/* Container Behind Text */
-.rectangle {
- background-color: #F4CA19;
- left: 0;
-  right: 0;
-  border-radius: 34px;
-  margin-left: 125px;
-  position: relative;
-  width: 930px;
-  display: block;
-}
- 
