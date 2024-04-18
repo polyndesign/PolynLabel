@@ -19,7 +19,6 @@ body {
 @font-face {
 font-family: "Orbitron";
 src: url(assets/Fonts/Orbitron-VariableFont_wght.ttf);
-font-weight: 400;
 }
 
 @font-face {
@@ -32,17 +31,17 @@ color: #F6EB14;
 font-size: 38px;
 font-family: Orbitron;
 position: static;
-
 }
 
 /* Hover on Navigation Link */
-.navigation a:hover {
+li.navigation a:hover h2 {
   color: #F6881F;
 }
 
 /* About color */
 h2 {
   color: #F6EB14;
+  font-weight: 500;
 }
 
 nav{
@@ -153,9 +152,11 @@ footer {
   text-align:left;
 }
 /* Hover Links */
-.footerlinks a:hover {
+
+.footerlinks a:hover h4{
   color: #F6881F;
 }
+
 /* EMAIL */
 .email {
   position: absolute;
@@ -225,7 +226,7 @@ input:focus {
   font-weight: bolder;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #F4CA19;
-  margin-left: 420px;
+  margin-left: 417px;
   position: relative;
 }
 /* BlockQuote */
@@ -396,7 +397,60 @@ position: relative;
       font-weight: 100;
       text-align:left;
     }
-    
+    /* Page 2 */
+
+  #aboutlogo {
+    float: right;
+   margin-right: 100px;
+   bottom: 120px;
+   position: relative;
+   width: 1000px;
+   }
+
+   .rectangle {
+    background-color: #F4CA19;
+    left: 0;
+     right: 0;
+     border-radius: 34px;
+     margin-left: 125px;
+     position: relative;
+     width: 700px;
+     display: block;
+   }
+
+   .blockq {
+    color: #D46CAA;
+    font-family: Orbitron;
+    font-size: 35px;
+    line-height: 150%;
+    text-align: center;
+    position: relative;
+    display: flex;
+  }
+
+  .description {
+    color: #E74698;
+    font-family: Goldman;
+    font-size: 23px;
+    margin-left: 33px;
+    text-align: left;
+    margin-right: 20px;
+    line-height: 140%;
+    display: flex;
+    left: 50px;
+  
+  }
+
+  #titles {
+    font-family: "Orbitron";
+    font-size: 70px;
+    color: #E74698;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #F4CA19;
+    margin-left: 350px;
+    position: relative;
+  }
 }
 
 @media (max-width: 1980px)
@@ -464,6 +518,57 @@ position: relative;
       font-weight: 100;
       text-align:left;
     }
+     /* Page 2 */
+
+  #aboutlogo {
+    float: right;
+   margin-right: 100px;
+   bottom: -30px;
+   position: relative;
+   width: 800px;
+   }
+
+   .rectangle {
+    background-color: #F4CA19;
+    left: 0;
+     right: 0;
+     border-radius: 34px;
+     margin-left: 125px;
+     position: relative;
+     width: 600px;
+     display: block;
+   }
+   .blockq {
+    color: #D46CAA;
+    font-family: Orbitron;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    position: relative;
+    display: flex;
+  }
+  .description {
+    color: #E74698;
+    font-family: Goldman;
+    font-size: 23px;
+    margin-left: 33px;
+    text-align: left;
+    margin-right: 20px;
+    line-height: 140%;
+    display: flex;
+    left: 50px;
+  
+  }
+  #titles {
+    font-family: "Orbitron";
+    font-size: 60px;
+    color: #E74698;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #F4CA19;
+    margin-left: 320px;
+    position: relative;
+  }
 }
 
 @media (max-width: 1900px)
@@ -532,6 +637,56 @@ position: relative;
         font-weight: 100;
         text-align:left;
       }
+      /* Page 2 */
+
+  #aboutlogo {
+    float: right;
+   margin-right: 100px;
+   bottom: -60px;
+   position: relative;
+   width: 700px;
+   }
+   .rectangle {
+    background-color: #F4CA19;
+    left: 0;
+     right: 0;
+     border-radius: 34px;
+     margin-left: 125px;
+     position: relative;
+     width: 500px;
+     display: block;
+   }
+   .blockq {
+    color: #D46CAA;
+    font-family: Orbitron;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    position: relative;
+    display: flex;
+  }
+  .description {
+    color: #E74698;
+    font-family: Goldman;
+    font-size: 18px;
+    margin-left: 33px;
+    text-align: left;
+    margin-right: 20px;
+    line-height: 180%;
+    display: flex;
+    left: 50px;
+  
+  }
+  #titles {
+    font-family: "Orbitron";
+    font-size: 50px;
+    color: #E74698;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #F4CA19;
+    margin-left: 290px;
+    position: relative;
+  }
 }
 
 @media (max-width: 1600px)
@@ -630,6 +785,55 @@ position: relative;
             font-weight: 100;
             text-align:left;
           }
+           /* Page 2 */
+
+  #aboutlogo {
+    float: right;
+   margin-right: 100px;
+   bottom: -190px;
+   position: relative;
+   width: 600px;
+   }
+   .rectangle {
+    background-color: #F4CA19;
+    left: 0;
+     right: 0;
+     border-radius: 34px;
+     margin-left: 125px;
+     position: relative;
+     width: 400px;
+     display: block;
+   }
+   .blockq {
+    color: #D46CAA;
+    font-family: Orbitron;
+    font-size: 23px;
+    line-height: 150%;
+    text-align: center;
+    position: relative;
+    display: flex;
+  }
+  .description {
+    color: #E74698;
+    font-family: Goldman;
+    font-size: 15px;
+    margin-left: 33px;
+    text-align: left;
+    margin-right: 20px;
+    line-height: 180%;
+    display: flex;
+    left: 50px;
+  }
+  #titles {
+    font-family: "Orbitron";
+    font-size: 50px;
+    color: #E74698;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F4CA19;
+    margin-left: 250px;
+    position: relative;
+  }
 }
 
 @media (max-width: 1350px)
@@ -715,6 +919,56 @@ position: relative;
           border: 2.8px solid #F4CA19;
           width: 200px;
           }
+          /* Page 2 */
+
+  #aboutlogo {
+    float: right;
+   margin-right: 100px;
+   bottom: -490px;
+   position: relative;
+   width: 550px;
+   }
+   .rectangle {
+    background-color: #F4CA19;
+    left: 0;
+     right: 0;
+     border-radius: 34px;
+     margin-left: 80px;
+     position: relative;
+     width: 320px;
+     display: block;
+   }
+   .blockq {
+    color: #D46CAA;
+    font-family: Orbitron;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    position: relative;
+    display: flex;
+  }
+  .description {
+    color: #E74698;
+    font-family: Goldman;
+    font-size: 10px;
+    margin-left: 33px;
+    text-align: left;
+    margin-right: 20px;
+    line-height: 180%;
+    display: flex;
+    left: 50px;
+  }
+  #titles {
+    font-family: "Orbitron";
+    font-size: 50px;
+    color: #E74698;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F4CA19;
+    margin-left: 160px;
+    position: relative;
+  }
+
 }
 
 @media (max-width: 1200px)
