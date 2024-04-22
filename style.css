@@ -274,8 +274,78 @@ position: relative;
   display: block;
 }
  
+/* PAGE 3 Get rid of relative if not working */
 
+.artistxshop {
+  font-family: "Orbitron";
+  font-size: 80px;
+  color: #E74698;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #F4CA19;
+  position: relative; 
+  text-align: center;
+}
+/* "Our blossoming roster of talents" */
+#artistdescription {
+  text-align: center;
+font-size: 45px;
+font-family: "Orbitron";
+color: #D46CAA;
 
+}
+
+#rectangle2 {
+  width: 1209px;
+  height: 109px;
+  background-color: #F6EB14;
+  text-align: center;
+  margin: auto;
+  border-radius: 16px;
+  margin-bottom: -40px;
+border-bottom: 16px solid #D46CAA;
+}
+/* MAIN RECTANGLE */
+.mainrectangle {
+background-color: #302C81;
+height: 1669px;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 172px;
+  margin-right: 172px;
+  border-radius: 15px;
+  outline: 20px solid #F6EB14;  
+  margin-top: 72px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+/* ARTISTS LOGO/SQUARES */
+.artistslogo {
+  outline: 10px solid #E74698; 
+  border-radius: 5px;
+  margin: 15px;
+  flex: 1 0 28%;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 72px;
+}
+
+/* ARTISTS TITLES */
+
+.texttest {
+  text-align: center;
+}
+
+.artisttitles {
+  display: block;
+  margin-left: 130px;
+  font-family: "Orbitron";
+  font-size: 32px;
+  text-align: justify;
+}
 /* MEDIA QUIERES  For Navigation*/
 @media (max-width: 2880px)
 {
