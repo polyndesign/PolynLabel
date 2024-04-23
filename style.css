@@ -328,23 +328,37 @@ display: flex;
   border-radius: 5px;
   margin: 15px;
   flex: 1 0 28%;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
   margin-top: 72px;
+
 }
 
 /* ARTISTS TITLES */
 
 .texttest {
   text-align: center;
+  font-family: "Orbitron";
+  font-size: 35px;
+  display: inline-block;
+  font-weight: 500;
 }
+
+.texttest a:link {
+  color: #F6EB14;
+}
+.texttest a:hover {
+  color: #F6881F;
+}
+
 
 .artisttitles {
   display: block;
   margin-left: 130px;
-  font-family: "Orbitron";
-  font-size: 32px;
-  text-align: justify;
+  text-align:center;
+  margin-left: 4px;
+  margin-top: 15px;
+
 }
 /* MEDIA QUIERES  For Navigation*/
 @media (max-width: 2880px)
@@ -757,6 +771,66 @@ display: flex;
     margin-left: 290px;
     position: relative;
   }
+
+  /* PAGE 3 */
+
+  .artistxshop {
+    font-family: "Orbitron";
+    font-size: 65px;
+    color: #E74698;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #F4CA19;
+    position: relative; 
+    text-align: center;
+  }
+
+  /* "Our blossoming roster of talents" */
+#artistdescription {
+  text-align: center;
+font-size: 35px;
+font-family: "Orbitron";
+color: #D46CAA;
+
+}
+
+#rectangle2 {
+  width: 1009px;
+  height: 89px;
+  background-color: #F6EB14;
+  text-align: center;
+  margin: auto;
+  border-radius: 16px;
+  margin-bottom: -40px;
+border-bottom: 16px solid #D46CAA;
+}
+/* MAIN RECTANGLE */
+.mainrectangle {
+  background-color: #302C81;
+  height: 3669px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 172px;
+    margin-right: 172px;
+    border-radius: 15px;
+    outline: 20px solid #F6EB14;  
+    margin-top: 72px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+  }
+/* ARTISTS LOGO/SQUARES */
+.artistslogo {
+  outline: 10px solid #E74698; 
+  border-radius: 5px;
+  margin: 15px;
+  flex: 1 0 28%;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 72px;
+width: 267px;
+}
 }
 
 @media (max-width: 1600px)
@@ -904,6 +978,20 @@ display: flex;
     margin-left: 250px;
     position: relative;
   }
+
+  /* PAGE 3 */
+
+  .artistxshop {
+    font-family: "Orbitron";
+    font-size: 60px;
+    color: #E74698;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F4CA19;
+    position: relative; 
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 1350px)
@@ -1038,6 +1126,28 @@ display: flex;
     margin-left: 160px;
     position: relative;
   }
+
+  /* PAGE 3 */
+
+  /* "Our blossoming roster of talents" */
+#artistdescription {
+  text-align: center;
+font-size: 30px;
+font-family: "Orbitron";
+color: #D46CAA;
+
+}
+
+#rectangle2 {
+  width: 809px;
+  height: 79px;
+  background-color: #F6EB14;
+  text-align: center;
+  margin: auto;
+  border-radius: 16px;
+  margin-bottom: -40px;
+border-bottom: 16px solid #D46CAA;
+}
 
 }
 
