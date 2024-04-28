@@ -18,7 +18,9 @@ background-size: cover;
   
 }
 /* FIX FOOTER DELETE IF NOT WORKING*/
-
+main {
+  min-height: 100vh;
+}
 /* FONTS */
 @font-face {
 font-family: "Orbitron";
@@ -140,6 +142,7 @@ footer {
   color: #302C81;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 /* Footer Color */
 .footerlinks a:link {
@@ -364,6 +367,44 @@ display: flex;
   margin-top: 15px;
 
 }
+
+
+/* PAGE 4 CHANGE POSITION IF NOT WORKING*/
+.circletext {
+font-family: "Orbitron";
+font-size: 45px;
+position:relative; 
+top:40px;
+}
+
+/* PAGE 4 LINK COLORS*/
+.circletext a:link{
+  color: #D46CAA;
+  }
+
+.circletext a:hover {
+  color: #F6881F;
+}
+  /* CIRCLES */
+  .circles {
+    background-color: #F6EB14;
+    width: 400px;
+  height: 165px;
+  background-color: #F6EB14;
+  margin-left: 435px;
+  border-radius: 80%;
+border-left: 20px solid #E74698;
+text-align: center;
+display: inline-block;
+  }
+
+  /* PRICES */
+  .prices {
+    font-size: 32px;
+    color: #F6EB14;
+    margin-top: 20px;
+    text-align: center;
+  }
 /* MEDIA QUIERES  For Navigation*/
 @media (max-width: 2880px)
 {
@@ -1279,4 +1320,5 @@ width: 245px;
           border: 2.8px solid #F4CA19;
           width: 150px;
           }
+         
 }
