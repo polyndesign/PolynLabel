@@ -17,7 +17,7 @@ background-size: cover;
   position: static;
   
 }
-/* FIX FOOTER DELETE IF NOT WORKING*/
+
 main {
   min-height: 100vh;
 }
@@ -225,6 +225,11 @@ input:focus {
  }
 
 
+ /* FOR MOBILE ICON */
+ #mobile-menu-button {
+  display: none;
+  }
+
 /* PAGE 2 */
 #titles {
   font-family: "Orbitron";
@@ -317,7 +322,7 @@ border-bottom: 16px solid #D46CAA;
 background-color: #302C81;
 height: 1669px;
 display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   margin-left: 172px;
   margin-right: 172px;
@@ -337,8 +342,7 @@ display: flex;
   flex: 1 0 28%;
   margin-left: 80px;
   margin-right: 80px;
-  margin-top: 72px;
-
+  margin-top: 160px;
 }
 
 /* ARTISTS TITLES */
@@ -349,6 +353,7 @@ display: flex;
   font-size: 35px;
   display: inline-block;
   font-weight: 500;
+  width: 600px;
 }
 
 .texttest a:link {
@@ -401,9 +406,8 @@ display: inline-block;
   /* PRICES */
   .prices {
     font-size: 32px;
-    color: #F6EB14;
-    margin-top: 20px;
-    text-align: center;
+      color: #F6EB14;
+      margin-top: 20px;
   }
 /* MEDIA QUIERES  For Navigation*/
 @media (max-width: 2880px)
@@ -526,6 +530,15 @@ display: inline-block;
       font-weight: 100;
       text-align:left;
     }
+
+    .home {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 80px;
+   
+  }
     /* Page 2 */
 
   #aboutlogo {
@@ -582,7 +595,7 @@ display: inline-block;
   }
    
 }
-@media (max-width: 2650px)
+@media (max-width: 2800px)
 {
 /* PAGE 3 */
   /* ARTISTS LOGO/SQUARES */
@@ -594,9 +607,106 @@ display: inline-block;
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 72px;
-  width: 320px;
-  }
+  width: 350px;
+  }  
+  .mainrectangle {
+    background-color: #302C81;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-left: 172px;
+    margin-right: 172px;
+    border-radius: 15px;
+    outline: 20px solid #F6EB14;
+    margin-top: 72px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }  
 }
+
+
+
+@media (max-width: 2790px)
+{
+  .artistslogo {
+    outline: 10px solid #E74698;
+    border-radius: 5px;
+    margin: 15px;
+    flex: 1 0 28%;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 72px;
+    width: 350px;
+    }
+  .texttest {
+    text-align: center;
+font-family: "Orbitron";
+display: inline-block;
+font-weight: 500;
+width: 600px;
+  }
+  .prices {
+    font-size: 22px;
+color: #F6EB14;
+margin-top: 2px;
+  }
+    
+}
+@media (max-width: 2750px)
+{
+  .artistslogo {
+    outline: 10px solid #E74698;
+    border-radius: 5px;
+    margin: 15px;
+    flex: 1 0 28%;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 72px;
+    
+    }
+  .texttest {
+    text-align: center;
+font-family: "Orbitron";
+font-size: 25px;
+display: inline-block;
+font-weight: 500;
+width: 600px;
+  }
+  .prices {
+    font-size: 22px;
+color: #F6EB14;
+margin-top: 2px;
+  }
+    
+}
+@media (max-width: 2150px)
+{
+  .artistslogo {
+    outline: 10px solid #E74698;
+    border-radius: 5px;
+    margin: 15px;
+    flex: 1 0 28%;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 72px;
+    width: 200px;
+    }
+  .texttest {
+    text-align: center;
+font-family: "Orbitron";
+font-size: 25px;
+display: inline-block;
+font-weight: 500;
+width: 600px;
+  }
+  .prices {
+    font-size: 22px;
+color: #F6EB14;
+margin-top: 2px;
+  }
+    
+}
+
 @media (max-width: 1980px)
 {
   .navigation a:link {
@@ -662,6 +772,15 @@ display: inline-block;
       font-weight: 100;
       text-align:left;
     }
+    
+    .home {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84%;
+    margin-top: 80px;
+   
+  }
      /* Page 2 */
 
   #aboutlogo {
@@ -723,7 +842,14 @@ display: inline-block;
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 72px;
-width: 330px;
+width: 200px;
+}
+/* PAGE 4 */
+/* PRICES */
+.prices {
+  font-size: 22px;
+    color: #F6EB14;
+    margin-top: 2px;
 }
 }
 
@@ -793,6 +919,15 @@ width: 330px;
         font-weight: 100;
         text-align:left;
       }
+
+      .home {
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 98%;
+      margin-top: 80px;
+     
+    }
       /* Page 2 */
 
   #aboutlogo {
@@ -1001,6 +1136,15 @@ width: 370px;
             font-weight: 100;
             text-align:left;
           }
+
+          .home {
+            display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 98%;
+          margin-top: 100px;
+         
+        }
            /* Page 2 */
 
   #aboutlogo {
@@ -1072,7 +1216,7 @@ width: 370px;
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 72px;
-  width: 330px;
+    width: 200px;
   }
 }
 
@@ -1159,6 +1303,16 @@ width: 370px;
           border: 2.8px solid #F4CA19;
           width: 200px;
           }
+
+          .home {
+            display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 96%;
+          margin-top: 150px;
+         
+        }
+        
           /* Page 2 */
 
   #aboutlogo {
@@ -1237,13 +1391,21 @@ border-bottom: 16px solid #D46CAA;
   flex: 1 0 28%;
   margin-left: 80px;
   margin-right: 80px;
-  margin-top: 72px;
-width: 245px;
+width: 250px;
 }
 }
 
 @media (max-width: 1200px)
 {
+  .home {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+  margin-top: 150px;
+ 
+}
+
   #main-menu {
     display: inline-flex;
     gap: 75px;
@@ -1320,5 +1482,11 @@ width: 245px;
           border: 2.8px solid #F4CA19;
           width: 150px;
           }
-         
+         /* FOR MOBILE ICON */
+  #mobile-menu-button {
+    display: block;
+background-color: transparent;    
+border: 0px;
+}
+
 }
