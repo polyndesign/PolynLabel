@@ -1492,7 +1492,12 @@ width: 250px;
 display: flex;
 background-color: transparent;    
 border: 0px;
-right:100px;
+margin-right: -200px;
+margin-top: -20px;
+}
+#mobile-menu-icon {
+width: 40px;
+right:50px;
 }
 
 }
