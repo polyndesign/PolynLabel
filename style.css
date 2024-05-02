@@ -1414,12 +1414,15 @@ width: 250px;
   }
   .navigation a:link {
     font-size: 13px;
+    /* DELETE IF NOT WORKING */
+    display: none;
   }
   .navsearch  {
     padding: 5px 24px;
     left: 53px;
     top: -19px;
-
+        /* DELETE IF NOT WORKING */
+    display: none;
   }
   .searchinput{
     width: 240px;
@@ -1429,6 +1432,8 @@ width: 250px;
     position: relative;
     bottom: 22px;
     margin-right: -130px;
+    /* DELETE IF NOT WORKING */
+    display: none;
 
   }
   img {
@@ -1484,9 +1489,10 @@ width: 250px;
           }
          /* FOR MOBILE ICON */
   #mobile-menu-button {
-display: inline-flex;
+display: flex;
 background-color: transparent;    
 border: 0px;
+right:100px;
 }
 
 }
