@@ -633,6 +633,25 @@ top: -5px;
     flex-wrap: wrap;
     flex-direction: row;
     }  
+    /* PAGE 4 */
+     /* CIRCLES */
+  .circles {
+    background-color: #F6EB14;
+    width: 400px;
+  height: 165px;
+  background-color: #F6EB14;
+  margin-left: 430px;
+  border-radius: 80%;
+border-left: 20px solid #E74698;
+text-align: center;
+display: inline-block;
+  }
+  .circletext {
+    font-family: "Orbitron";
+    font-size: 40px;
+    position:relative; 
+    top:50px;
+    }
 }
 
 
@@ -661,7 +680,25 @@ width: 600px;
 color: #F6EB14;
 margin-top: 2px;
   }
-    
+    /* PAGE 4 */
+     /* CIRCLES */
+  .circles {
+    background-color: #F6EB14;
+    width: 400px;
+  height: 165px;
+  background-color: #F6EB14;
+  margin-left: 320px;
+  border-radius: 80%;
+border-left: 20px solid #E74698;
+text-align: center;
+display: inline-block;
+  }
+  .circletext {
+    font-family: "Orbitron";
+    font-size: 40px;
+    position:relative; 
+    top:50px;
+    }
 }
 @media (max-width: 2750px)
 {
@@ -688,6 +725,25 @@ width: 600px;
 color: #F6EB14;
 margin-top: 2px;
   }
+  /* PAGE 4 */
+     /* CIRCLES */
+     .circles {
+      background-color: #F6EB14;
+      width: 300px;
+    height: 165px;
+    background-color: #F6EB14;
+    margin-left: 300px;
+    border-radius: 80%;
+  border-left: 20px solid #E74698;
+  text-align: center;
+  display: inline-block;
+    }
+    .circletext {
+      font-family: "Orbitron";
+      font-size: 35px;
+      position:relative; 
+      top:50px;
+      }
     
 }
 @media (max-width: 2150px)
@@ -715,7 +771,6 @@ width: 600px;
 color: #F6EB14;
 margin-top: 2px;
   }
-    
 }
 
 @media (max-width: 1980px)
@@ -862,11 +917,30 @@ width: 200px;
     color: #F6EB14;
     margin-top: 2px;
 }
-/* DISPLAY-FLEX */
+/* DISPLAY-FLEX HOMEPAGE*/
 .display-flex {
   display: flex;
   gap: 190px;
 }
+/* PAGE 4 */
+     /* CIRCLES */
+     .circles {
+      background-color: #F6EB14;
+      width: 300px;
+    height: 155px;
+    background-color: #F6EB14;
+    margin-left: 250px;
+    border-radius: 80%;
+  border-left: 20px solid #E74698;
+  text-align: center;
+  display: inline-block;
+    }
+    .circletext {
+      font-family: "Orbitron";
+      font-size: 33px;
+      position:relative; 
+      top:50px;
+      }
 }
 
 @media (max-width: 1900px)
@@ -1059,6 +1133,25 @@ width: 370px;
   display: flex;
   gap: 150px;
 }
+/* PAGE 4 */
+     /* CIRCLES */
+     .circles {
+      background-color: #F6EB14;
+      width: 280px;
+    height: 155px;
+    background-color: #F6EB14;
+    margin-left: 220px;
+    border-radius: 80%;
+  border-left: 20px solid #E74698;
+  text-align: center;
+  display: inline-block;
+    }
+    .circletext {
+      font-family: "Orbitron";
+      font-size: 30px;
+      position:relative; 
+      top:50px;
+      }
 }
 
 @media (max-width: 1600px)
@@ -1239,6 +1332,25 @@ width: 370px;
     margin-top: 72px;
     width: 200px;
   }
+  /* PAGE 4 */
+     /* CIRCLES */
+     .circles {
+      background-color: #F6EB14;
+      width: 220px;
+    height: 145px;
+    background-color: #F6EB14;
+    margin-left: 160px;
+    border-radius: 80%;
+  border-left: 20px solid #E74698;
+  text-align: center;
+  display: inline-block;
+    }
+    .circletext {
+      font-family: "Orbitron";
+      font-size: 27px;
+      position:relative; 
+      top:50px;
+      }
 }
 
 @media (max-width: 1350px)
@@ -1419,6 +1531,25 @@ width: 250px;
   display: flex;
   gap: 90px;
 }
+/* PAGE 4 */
+     /* CIRCLES */
+     .circles {
+      background-color: #F6EB14;
+      width: 220px;
+    height: 145px;
+    background-color: #F6EB14;
+    margin-left: 120px;
+    border-radius: 80%;
+  border-left: 20px solid #E74698;
+  text-align: center;
+  display: inline-block;
+    }
+    .circletext {
+      font-family: "Orbitron";
+      font-size: 25px;
+      position:relative; 
+      top:50px;
+      }
 }
 
 @media (max-width: 1200px)
@@ -1508,6 +1639,25 @@ width: 250px;
           border: 2.8px solid #F4CA19;
           width: 150px;
           }
+          /* PAGE 4 */
+     /* CIRCLES */
+     .circles {
+      background-color: #F6EB14;
+      width: 220px;
+    height: 145px;
+    background-color: #F6EB14;
+    margin-left: 100px;
+    border-radius: 80%;
+  border-left: 20px solid #E74698;
+  text-align: center;
+  display: inline-block;
+    }
+    .circletext {
+      font-family: "Orbitron";
+      font-size: 25px;
+      position:relative; 
+      top:50px;
+      }
          /* FOR MOBILE ICON DELETE BELOW IF NOT WORKING*/
   #mobile-menu-button {
 display: flex;
