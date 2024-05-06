@@ -1690,7 +1690,7 @@ nav{
   display: block;
   margin-top: 150px;
   line-height: 4;
-  background-color: #F6881F;
+  background-color: rgba(245, 154, 163, 0.6);
   background-size: 100%;
 }
 }
