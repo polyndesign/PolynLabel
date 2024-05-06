@@ -16,7 +16,7 @@ $("#mobile-menu-button").click(function(){
    if(mobileMenuOpen == false) {
 
     $("#nav-items").addClass("display-flex");
-    $("#nav-items").removeClassClass("display-none-mobile");
+    $("#nav-items").removeClass("display-none-mobile");
     mobileMenuOpen = true;  
     $("#mobile-menu-icon").attr("src","assets/phonemenu/hamburgerbutton.svg");
    }

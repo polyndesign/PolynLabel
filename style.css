@@ -1526,7 +1526,7 @@ border-bottom: 16px solid #D46CAA;
   margin-right: 80px;
 width: 250px;
 }
-/* DISPLAY-FLEX */
+/* DISPLAY-FLEX originally display:flex and gap:90px*/
 .display-flex {
   display: flex;
   gap: 90px;
@@ -1658,17 +1658,19 @@ width: 250px;
       position:relative; 
       top:50px;
       }
-         /* FOR MOBILE ICON DELETE BELOW IF NOT WORKING*/
+         /* FOR MOBILE ICON */
   #mobile-menu-button {
 display: flex;
 background-color: transparent;    
 border: 0px;
 margin-top: -20px;
 margin-left: -50px;
+position: fixed;
 }
 #mobile-menu-icon {
 width: 40px;
 right:50px;
+position: fixed;
 }
 /* NAV IMAGE */
 nav{
@@ -1682,4 +1684,10 @@ nav{
   display: none;
 }
 
+/* DISPLAY FLEX */
+.display-flex {
+  display: inline-block;
+  margin-top: 70px;
+  
+}
 }
