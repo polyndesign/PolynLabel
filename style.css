@@ -1572,7 +1572,7 @@ width: 250px;
   }
   .navigation a:link {
     font-size: 15px;
-    align-items: center;
+    text-align: center;
   }
   .navsearch  {
     padding: 5px 24px;
