@@ -1660,7 +1660,7 @@ width: 250px;
       }
          /* FOR MOBILE ICON */
   #mobile-menu-button {
-display: flex;
+display: block;
 background-color: transparent;    
 border: 0px;
 margin-top: -20px;
@@ -1671,6 +1671,7 @@ position: fixed;
 width: 40px;
 right:50px;
 position: fixed;
+display: block;
 }
 /* NAV IMAGE */
 nav{
@@ -1686,8 +1687,8 @@ nav{
 
 /* DISPLAY FLEX */
 .display-flex {
-  display: inline-block;
-  margin-top: 70px;
-  
+  display: block;
+  margin-top: 150px;
+  line-height: 4;
 }
 }
