@@ -1690,5 +1690,7 @@ nav{
   display: block;
   margin-top: 150px;
   line-height: 4;
+  background-color: #F6881F;
+  background-size: 100%;
 }
 }
