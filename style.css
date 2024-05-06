@@ -1570,7 +1570,8 @@ width: 250px;
 
   }
   .navigation a:link {
-    font-size: 13px;
+    font-size: 15px;
+    align-items: center;
   }
   .navsearch  {
     padding: 5px 24px;
@@ -1688,9 +1689,10 @@ nav{
 /* DISPLAY FLEX */
 .display-flex {
   display: block;
-  margin-top: 150px;
+  margin-top: 120px;
   line-height: 4;
   background-color: rgba(245, 154, 163, 0.6);
-  background-size: 100%;
+  border-radius: 5px;
+  border: 5px #F4CA19;
 }
 }
