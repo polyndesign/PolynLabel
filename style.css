@@ -1574,8 +1574,7 @@ width: 250px;
   }
   .navsearch  {
     padding: 5px 24px;
-    left: 53px;
-    top: -19px;
+    left: -125px;
   }
   .searchinput{
     width: 240px;
@@ -1584,7 +1583,7 @@ width: 250px;
     margin-bottom: 85px;
     position: relative;
     bottom: 22px;
-    margin-right: -130px;
+    margin-right: 50px;
  
 
   }
@@ -1665,15 +1664,16 @@ background-color: transparent;
 border: 0px;
 margin-top: -330px;
 margin-right: -165px;
-position: sticky;
+margin-left: 30px;
+position: fixed;
 
 }
 #mobile-menu-icon {
 width: 40px;
 right:50px;
-position: sticky;
+position: fixed;
 display: block;
-bottom: -50px;
+bottom: 970px;
 }
 /* NAV IMAGE */
 nav{
