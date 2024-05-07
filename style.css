@@ -1566,9 +1566,7 @@ width: 250px;
 
   #main-menu {
     display: inline-flex;
-    gap: 75px;
-    margin-right: 28px;
-
+    margin-left: 150px;
   }
   .navigation a:link {
     font-size: 17px;
@@ -1665,15 +1663,17 @@ width: 250px;
 display: block;
 background-color: transparent;    
 border: 0px;
-margin-top: -20px;
-margin-left: -50px;
-position: fixed;
+margin-top: -330px;
+margin-right: -165px;
+position: sticky;
+
 }
 #mobile-menu-icon {
 width: 40px;
 right:50px;
-position: fixed;
+position: sticky;
 display: block;
+bottom: -50px;
 }
 /* NAV IMAGE */
 nav{
@@ -1690,11 +1690,12 @@ nav{
 /* DISPLAY FLEX */
 .display-flex {
   display: block;
-  margin-top: 35px;
+  margin-top: 30px;
   line-height: 4;
   background-color: rgba(245, 154, 163, 0.6);
   border-radius: 5px;
   border: solid #F6881F;
 border-width: 1 6px;
+margin-right: -38px;
 }
 }
