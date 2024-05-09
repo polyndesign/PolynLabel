@@ -1557,7 +1557,7 @@ width: 250px;
 
   /* CONTAINER FORM */
   #container form {
-    position: fixed;
+    position: absolute;
     display: block;
     right: 28px;
     top: 36px;
@@ -1675,7 +1675,7 @@ border: 0px;
 margin-top: -330px;
 margin-right: -165px;
 margin-left: 30px;
-position: sticky;
+position: absolute;
 
 }
 #mobile-menu-icon {
