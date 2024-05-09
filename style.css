@@ -1558,8 +1558,11 @@ width: 250px;
   /* CONTAINER FORM */
   #container form {
     position: fixed;
+    display: block;
     right: 28px;
     top: 36px;
+    bottom:0;
+   
   }
   .home {
     display: block;
@@ -1676,12 +1679,13 @@ position: sticky;
 
 }
 #mobile-menu-icon {
-  width: 40px;
-  right:50px;
-  position: fixed;
-  display: block;
-  bottom: 970px;
-  }
+width: 41px;
+right:50px;
+position: fixed;
+display: block;
+bottom: 1470px;
+
+}
 /* NAV IMAGE */
 nav{
   background-image: url(assets/NavigationLabel-01Web.svg);
@@ -1698,7 +1702,7 @@ nav{
 .display-flex {
   display: block;
   margin-top: 30px;
-  line-height: 4;
+  line-height: 4.2;
   background-color: rgba(245, 154, 163, 0.6);
   border-radius: 5px;
   border: solid #F6881F;
